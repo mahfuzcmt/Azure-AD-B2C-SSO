@@ -18,7 +18,8 @@ How to get custom claims https://docs.microsoft.com/en-us/azure/active-directory
     3. If user is authorized then azure portal will redirect to the provided URL with a auth code
     4. Your system will send a rest request including the auth code, cleint_secert, redirect_uri, scopes etc to get token
     5. In the response you will get user's basic info inclusing custom claims and token
-    
+
+![login screen](https://github.com/mahfuzcmt/Azure-AD-B2C-SSO/azure_ad_b2c_login.PNG)
 
 In this tutorial I'm showing the steps/concept in a Grails application to run this sample application please get some idea how to run grails application from
 
