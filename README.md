@@ -20,6 +20,8 @@ How to get custom claims https://docs.microsoft.com/en-us/azure/active-directory
     5. In the response you will get user's basic info inclusing custom claims and token
 
 
+#### The request URL will looks like this one >>https://YOUR_TENANT_NAME.b2clogin.com/YOUR_TENANT_NAME.onmicrosoft.com/YOUR_POLICY_NAME/oauth2/v2.0/authorize?client_id=YOUR_CLIENT_ID&nonce=RANDOM_UNIQUE_STRING&redirect_uri=REDIRECT_URL&scope=openid&response_type=code&state=STATE_VALUE(OPTIONAL)
+
 #### The response token looks like this one 
 
     eyJraWQiOiJjcGltY29yZV8wOTI1MjAxNSIsInZlciI6IjEuMCIsInppcCI6IkRlZmxhdGUiLCJzZXIiOiIxLjAifQ..2IaT6uKWR-XxFhzm.wsCgourDsj1GzBpGrUyDW0xYYA5nECrjWiJFjduL-X18DDzV_JCPWvu78u2SzY-sxGu8BNDIpYMB0iHeEf76FxsOd8mHJ-YVUcHWuXOo8EBvN7v9I-cjU-O_I7tEJuy76Vum4sU2sBZrSv48_y5LHR1HWcqo2EM2eTRU3QNYcc-TRMAeQxj-OGeNHbkl6e1BJUQJompMm5V6awMi5Owxdwr2JQg8L6OYBHuVdbwxFM93P2Uy9AmoorOjiPrPD2OyYtSpvlGzO5uAffD18RAPHR1hJGhaSnjcFdQ0YYp0WXIBFj_envATI3yeVuKvE2Wh8IFuF7LHIz6Ebuc6GItG5dGB3P8aIK3MekiiqZ1uRmM9c2o6huGsxpMkUKv8PJHJslSztIAkKnTP1qvdE3LXQ2vjkCSZR2x72XP0mbeOP18GsgWniwSINMPi7vyHdsZpeMyJ1CzSVKt8DYvEK7vFPly2lre3UJX13G6ezmdMQxYZJbA7vG8Aeu1TYI9fIO_rm2MJURuG3s62AasWab6LJAq5900kXN6Cyd-lAdgF3DjFLTaetfPAzTWrcRG4ysW5i3_GL15lS92mK8JskIuJ1x5mxey50FEJ1ElJwQ2mC0K8hPULKECmyPgnnYnFbAB74tMMgqDo0UfF1wxFeeGfGEyh8Ejzqxw.yGwBP4Ht2ZOgJR6CqWjYcw
